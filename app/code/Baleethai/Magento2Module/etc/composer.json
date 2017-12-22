@@ -1,0 +1,24 @@
+{
+    "name": "baleethai/magento-2-module",
+    "description": "My awesome Magento 2 module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "~5.5.22|~5.6.0|~7.0.4|~7.0.6",
+        "magento/framework": "100.0.*|100.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Baleethai\\Magento2Module": ""
+        }
+    }
+}
